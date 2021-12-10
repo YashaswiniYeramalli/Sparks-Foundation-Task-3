@@ -1,0 +1,156 @@
+
+*{
+    margin: 0;
+}
+
+header{
+    
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+   
+    float: left;
+    color: #fff;
+   
+}
+.logo h3{
+    margin-top: 30px;
+    padding-left: 20px;
+    color: black;
+}
+.logo img{
+    width:50px;
+    height: 50px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.nav-area{
+    display: inline;
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    }
+    .nav-area li{
+        display: inline-block;
+    }
+    .nav-area li a{
+        color:#333;
+        text-decoration: none;
+        padding: 5px 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px; 
+        text-transform: uppercase;  
+    }
+    
+    .nav-area li a:hover{
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    .main-body{
+        background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("imgs/homepage.jpg");
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+  
+height: 92vh;
+    
+position: relative;
+    }
+    
+   
+.full-page{
+
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("imgs/charity-1.png");
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    padding-top:4% ;
+  
+
+}
+.row {
+   
+    display: flex;
+    margin: 0 -16px;
+}
+
+.col-50{
+    padding: 0 16px;
+}
+  
+.form{
+    width: 20%;
+    padding: 20px 18px;
+    background: rgb(13 16 16 / 80%);
+    transition: .2s;
+    color: white;
+    margin-left: 60%;
+    margin-top:2%;
+    text-align: center;
+}
+
+.form h2 {
+    font-weight: 600;
+    font-size:40px;
+    text-align: center;
+    line-height: 130%;
+}
+.form p{
+ color: #ccfde2;
+ font-size: 18px;
+}
+
+.inputFields {
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgba(10, 180, 180, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+  }
+
+.noBullet {
+    list-style-type: none;
+}
+
+.btn{
+    align-items: center;
+}
+script{
+    margin-left: 20px;
+}
+#join-btn {
+    border: 1px solid rgba(10, 180, 180, 1);
+    background: rgba(20, 20, 20, .6);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+    margin-left: 27%;
+}
+
+#join-btn :hover {
+    background: rgba(20, 20, 20, .8);
+    padding: 10px 80px;
+}
+footer{
+    margin-left: 20px;
+    color: whitesmoke;
+}

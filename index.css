@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+padding: 0;
+/*color: #fff;*/
+}
+
+header{
+    
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+   
+    float: left;
+    color: #fff;
+   
+}
+.logo h3{
+    margin-top: 30px;
+    padding-left: 20px;
+    color: black;
+}
+.logo img{
+    width:50px;
+    height: 50px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.nav-area{
+    display: inline;
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    }
+    .nav-area li{
+        display: inline-block;
+    }
+    .nav-area li a{
+        color:#333;
+        text-decoration: none;
+        padding: 5px 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px; 
+        text-transform: uppercase;  
+    }
+    
+    .nav-area li a:hover{
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    .main-body{
+        background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("imgs/homepage.jpg");
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+  
+height: 92vh;
+    
+position: relative;
+    }
+    /*.main-body img{
+        width:100%;
+        height: 100%;
+        filter: brightness(80%);
+        background-image: -webkit-linear-gradient();
+        
+    }*/
+    .info{
+        width: 550px;
+        padding-top:8% ;
+        margin-left: 10%;
+    }
+    .container-1{
+     /*   background: white;*/
+    background-image: linear-gradient(rgb(255 255 255 / 30%),rgb(0 0 0 / 30%));
+    padding: 10px;
+    border-radius: 15px;
+    }
+    .info h2{
+        padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    font-size: 50px;
+    }
+.don-btn{
+    padding: 20px;
+}
+    .btn{
+        padding: 10px;
+        color: rgb(255, 247, 247);
+        /*background-color:rgb(179, 0, 0) 
+        linear-gradient(rgb(255 42 42),rgb(255 4 4));;*/
+        background-image:  linear-gradient(rgb(255 0 0),rgb(255 0 0));
+        font-size: 30px;
+        font-family: Georgia, serif;
+        border-radius: 15px;
+
+    }
+   /* span{
+        font-family: cursive;
+        color: rgb(255 224 1);
+    }*/
+footer{
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 9%;
+    margin-left: 45%;
+}
